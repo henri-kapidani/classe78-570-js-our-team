@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 900px;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card {
+	flex: 0 0 calc(100% / 3);
+	padding: .5rem;
+	/* height: 200px; */
+}
+
+/* .card .content {
+	height: 100%;
+} */
+
+.card img {
+	width: 100%;
+}
